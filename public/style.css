@@ -2,3 +2,45 @@ body {
     background-color: #434343;
     color: #ffffff;
 }
+
+.grid{
+    display: grid;
+    gap: 1vh;
+    grid-template-rows: 100px auto auto;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas:
+        "top top"
+        "mid-left mid-right"
+        "bottom-left bottom-right";
+    height: 99vh;
+}
+
+.grid div{
+    background-color: #1f1f1f;
+    border-radius:  32px;
+    border: 1px rgb(119, 119, 119) solid;
+}
+
+.top{
+    display: flex;
+    grid-area: top;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.mid-left{
+    grid-area: mid-left;
+}
+
+.mid-right{
+    grid-area: mid-right;
+}
+
+.bottom-left{
+    grid-area: bottom-left;
+}
+
+.bottom-right{
+    grid-area: bottom-right;
+}
