@@ -1,15 +1,24 @@
 {
   "name": "mc-site",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^5.2.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ex0Rift/mc-site.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ex0Rift/mc-site/issues"
+  },
+  "homepage": "https://github.com/ex0Rift/mc-site#readme",
+  "description": ""
 }
